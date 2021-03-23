@@ -1,0 +1,11 @@
+{
+  "name": "labsheet 5 - KoaJS",
+  "version": "1.0.0",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^10.0.0",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^2.5.0",
+    "uuid": "^8.3.2"
+  }
+}
