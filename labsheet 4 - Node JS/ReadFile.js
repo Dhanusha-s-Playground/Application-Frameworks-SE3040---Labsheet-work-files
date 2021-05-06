@@ -31,19 +31,16 @@ const bf = require('buffer');
 
 
 // this createReadStream run as async
-fs.createReadStream('MyFile').on('data',(chunck)=>{
-    console.log(`${chunck}`);
-});
-
-// fs.readFile('MyFile',(error,data)=>{
-//     console.log(data.toString());
+// fs.createReadStream('MyFile').on('data',(chunck)=>{
+//     console.log(`${chunck}`);
 // });
+
 
 console.log('This is a testing statement 1');
 
 
 // this readFileSync run as sync
-const data = fs.readFileSync('MyFile');
-console.log(data.toString());
+// const data = fs.readFileSync('MyFile');
+// console.log(data.toString());
 
 console.log('This is a testing statement 2');

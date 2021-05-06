@@ -30,8 +30,8 @@ const fs = require('fs');
 const fileName = __dirname + '/MyFile';
 const outFileName = __dirname + '/MyOutputFile';
 
-const readStream = fs.createReadStream(fileName);
-const writeStream = fs.createWriteStream(outFileName);
+const readStream = fs.createReadStream(fileName); //input
+const writeStream = fs.createWriteStream(outFileName); //output
 
 readStream.pipe(writeStream);
 
