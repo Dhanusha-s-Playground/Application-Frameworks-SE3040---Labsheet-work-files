@@ -1,0 +1,13 @@
+{
+  "name": "labsheet 6 - KoaJS with MongoDB",
+  "version": "1.0.0",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^10.0.0",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^2.5.0",
+    "koa-static": "^5.0.0",
+    "mongodb": "^3.6.6",
+    "uuid": "^8.3.2"
+  }
+}

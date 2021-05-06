@@ -1,0 +1,5 @@
+.idea/
+.parcel-cache/
+App-jsx-backup.txt
+package-lock.json
+node_modules/
